@@ -1,0 +1,78 @@
+/* Here is the css file, where i'm going to style the html page.*/
+@import url('http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap');
+/* The style applying to the body tag*/
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+}
+/* The style applying to all of the heading  tags*/
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(109, 3, 3);
+    font-size: 25px;
+    text-align: center;
+}
+/* The style applying to only the h1 tag*/
+h1 {color: navy};
+
+.backColor
+{
+    background-color:rgb(85, 92, 92);
+}
+
+.allThePage /* The style applying to the "allThePage" class*/
+{
+    
+   
+    background-color: rgb(104, 128, 173);
+    border-radius: 20px; 
+    width: 92%;
+    margin: 30px;
+    padding: 20px;
+    height: 50%;
+   
+}
+ footer /* The style applying to the footer tag*/
+{
+    
+    
+    background-color: rgb(84, 101, 134);
+    border-radius: 20px; 
+    width: 92%;
+    margin: 30px;
+    padding: 20px;
+    height: 50%;
+    
+}
+
+  .sectionPremier  /* The style applying to the sectionPremier class inside of the articles tag*/
+{
+    background-color: rgb(233, 227, 227);
+    text-align: center;
+    border-radius: 20px; 
+    margin: 20px;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.speedy /* The style  applying to  the anchor links tag*/
+{
+    color: rgb(86, 206, 75);
+    font-weight: 1000;
+    background-color: rgb(63, 25, 13);
+    border: 5px;
+    
+  }
+  .speedy:hover /* The pseudo-classes style applying to the anchor links tag*/
+   {
+    color: rgb(209, 29, 140);
+    
+  }
+  
+  hr /* The style  applying to  the page dividers self-closing tag */
+  {
+    border: 2px solid green;
+  border-radius: 5px;
+  }
