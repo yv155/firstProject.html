@@ -70,6 +70,11 @@ h1 {color: navy};
     color: rgb(209, 29, 140);
     
   }
+
+.portrait
+{
+    width: 80%;
+}
   
   hr /* The style  applying to  the page dividers self-closing tag */
   {
