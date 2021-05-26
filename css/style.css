@@ -71,9 +71,10 @@ h1 {color: navy};
     
   }
 
-.portrait
+.portrait img
 {
-    width: 80%;
+    width: 200px;
+    
 }
   
   hr /* The style  applying to  the page dividers self-closing tag */
